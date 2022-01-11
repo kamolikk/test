@@ -1,4 +1,1 @@
-<?php
-$content = file_get_contents('index.php');
-echo $content;
-?>
+<?php echo '<?php echo file_get_contents("index.php"); ?>'; ?>
